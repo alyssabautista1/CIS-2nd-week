@@ -1,0 +1,6 @@
+q = 20
+p = 10
+
+c = q * p
+
+print("computer extended price is ", c)
