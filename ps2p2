@@ -5,5 +5,5 @@ n
 
 g = h * r
 
-print("last name is ",n)
-print("gross pay is ",g)
+print("last name is ", n)
+print("gross pay is ", g)
