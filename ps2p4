@@ -1,0 +1,8 @@
+c = 15
+
+n = bautista
+
+t = (250 * c) + 100
+
+print("total tuition is ", t)
+print("last name is ", n)
