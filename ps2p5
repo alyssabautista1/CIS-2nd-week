@@ -1,0 +1,7 @@
+p = 30
+d = 0.25
+
+t = p * d
+
+print("discounted price of item is ", t)
+print(discount amount is ", d)
