@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alyss"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-24 08:20:02 PM"/>
+        <attribute name="created" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMjQ7MDg6MTY6MjEgUE07MjgzOQ=="/>
+        <attribute name="edited" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMjQ7MDg6MjA6MDIgUE07MTsyOTQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="q" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <input variable="q"/>
+            <input variable="p"/>
+            <assign variable="c" expression="q * p"/>
+            <output expression="&quot;computer extended price is &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

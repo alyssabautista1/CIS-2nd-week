@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alyss"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-24 08:32:01 PM"/>
+        <attribute name="created" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMjQ7MDg6Mjk6MTAgUE07Mjg0MQ=="/>
+        <attribute name="edited" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMjQ7MDg6MzI6MDEgUE07MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <declare name="n" type="String" array="False" size=""/>
+            <input variable="c"/>
+            <input variable="n"/>
+            <assign variable="t" expression="(250 *c) + 100"/>
+            <output expression="&quot;total tuition is &quot; &amp; t" newline="True"/>
+            <output expression="&quot;last name is &quot; &amp; n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
